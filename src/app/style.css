@@ -1,0 +1,19 @@
+body {
+    background-color: aqua;
+    border-bottom:black;
+} 
+
+section{
+    background-color:black;
+}
+section p {
+    color:white;
+}
+
+.pie {
+    background-color:rgb(236, 247, 243);
+}
+.img-responsive {
+	width:1200px !important;
+	height:450px !important;
+}

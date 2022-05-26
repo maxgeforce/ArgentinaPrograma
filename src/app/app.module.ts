@@ -17,7 +17,10 @@ import { PruebaComponent } from './prueba/prueba.component';
     FooterComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    LayoutComponent,
+    AppRoutingModule,
+
     
   ],
   providers: [],

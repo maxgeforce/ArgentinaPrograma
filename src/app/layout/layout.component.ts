@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LayoutComponent implements OnInit {
 
+  listaTrabajos=["puerto leche", "batagey"];
   constructor() { }
 
   ngOnInit(): void {

@@ -1,7 +1,27 @@
 
-<section class="acercaDe"></section>
+<section class="acercaDe">
+    <div style="background-image: url('assets/background.jpg'); height: 300px;" >
+        <div class="col-md-12"> 
+                
+            <div class="col-md-6"> 
+             <img id="imgProfile" src="assets/profile img.jpg" width="15%" height="15%">
+             <h2 style="color: white">Maximiliano Oscar Fernandez</h2>
+             <h3 style="color: white">FullStack Developer Jr</h3>
+            </div>
+            <div class="col-md-6">
+               <h3 style="color: white">Aqui iria la informacion personal</h3>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="experiencia"></section> 
+        <div>
+            <ul>
+                <li *ngFor=" let info of listaTrabajos;"> {{info}}</li>
+            </ul>
+       </div>
+            
 
 <section class="educacion"></section>
 

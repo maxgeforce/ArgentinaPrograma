@@ -11,16 +11,14 @@ import { PruebaComponent } from './prueba/prueba.component';
 @NgModule({
   declarations: [
     AppComponent,
-    LayoutComponent,
     PruebaComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    LayoutComponent
   ],
   imports: [
     BrowserModule,
-    LayoutComponent,
-    AppRoutingModule,
-
+    AppRoutingModule
     
   ],
   providers: [],

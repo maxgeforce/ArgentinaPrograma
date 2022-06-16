@@ -1,30 +1,36 @@
-
 <section class="acercaDe">
-    <div style="background-image: url('assets/background.jpg'); height: 300px;" >
-        <div class="col-md-12"> 
-                
-            <div class="col-md-6"> 
-             <img id="imgProfile" src="assets/profile img.jpg" width="15%" height="15%">
-             <h2 style="color: white">Maximiliano Oscar Fernandez</h2>
-             <h3 style="color: white">FullStack Developer Jr</h3>
-            </div>
-            <div class="col-md-6">
-               <h3 style="color: white">Aqui iria la informacion personal</h3>
+    <div style="background-image: url('assets/background.jpg'); height: 300px;">
+
+
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-6" style="margin: 0px">
+                    <img id="imgProfile" src="assets/profile img.jpg" width="150px" height="150px">
+                    <h2 style="color: white">{{userData.nombre}}</h2>
+                    <input  type="text" [(ngModel)]="userData.nombre" style="width: 80% ;">
+                    <input type="text" [(ngModel)]="userData.city" style="width: 450 px ;">
+                    <h5 style="color: white">FullStack Developer Jr</h5>
+                    <button> Tengo Interes En </button> <button>Añadir Seccion</button> <button> Mas </button>
+                </div>
+                <div class="col-md-6">
+                    <h3 style="color: white; margin-top: 239px;">Informacion Personal</h3>
+                </div>
+
             </div>
         </div>
     </div>
 </section>
 
-<section class="experiencia"></section> 
-        <div>
-            <ul>
-                <li *ngFor=" let info of listaTrabajos;"> {{info}}</li>
-            </ul>
-       </div>
-            
+<section class="experiencia"></section>
+<div>
+    <ul>
+        <li *ngFor=" let info of listaTrabajos;"> {{info}}</li>
+    </ul>
+</div>
+
 
 <section class="educacion"></section>
 
 <section class="habilidades"></section>
 
-<section class = "proyectos"></section>
+<section class="proyectos"></section>

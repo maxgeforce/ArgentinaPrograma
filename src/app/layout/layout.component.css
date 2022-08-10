@@ -2,3 +2,17 @@
     border-radius: 100px;
     
 }
+
+.inPutty:disabled{
+    background: rgb(255, 255, 255,0);
+    border-radius: 0px;
+    border: none;
+    color: white;
+}
+
+.inPutty{
+    background: rgb(255, 255, 255,0.2);
+    border-radius: 0px;
+    border: none;
+    color: white
+}

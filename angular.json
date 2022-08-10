@@ -7,7 +7,7 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
-          "strict": true
+          "strict": false
         }
       },
       "root": "",
@@ -103,5 +103,8 @@
       }
     }
   },
-  "defaultProject": "proyectoAngular"
+  "defaultProject": "proyectoAngular",
+  "cli": {
+    "analytics": "e8c30985-5e8e-49d2-aee0-5bca5f76ebe1"
+  }
 }
